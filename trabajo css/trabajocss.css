@@ -1,0 +1,432 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: linear-gradient( #1d3557, #457b9d);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+   
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.header-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.header-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-nav a:hover {
+    color: #a8dadc;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+	list-style-position: inside;
+	padding-left: 0;
+
+}
+
+.intro img {
+    width: 80%;
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+.footer {
+    background: linear-gradient( #457b9d, #1d3557);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-texto {
+    flex: 1;
+    width: 200px;
+    margin: 10px 0;
+}
+
+.footer-texto p {
+    margin: 5px 0;
+}
+
+.footer-texto a {
+    color: #a8dadc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-texto a:hover {
+    text-decoration: underline;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.redes-sociales img {
+    width: 24px;
+    height: 24px;
+}
+
+.redes-sociales img:hover {
+    transform: scale(1.2);
+}
+
+.servicio {
+  background-color: #f7f7f7;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.descripcion {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.servicio2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.tarjeta {
+  background-color: #d7d7d5;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+  text-align: left;
+}
+
+.tarjeta h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.tarjeta p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.tarjeta .precio {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.tarjeta .contratar {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.tarjeta .contratar:hover {
+  background-color: #0056b3;
+}
+
+.imagenes {
+  background-color: #d7d7d5;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.titulo-imagenes {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.posicionamiento-imagenes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.forma-imagenes {
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;  
+  height: 250px;
+}
+
+.forma-imagenes img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.forma-imagenes img:hover {
+  transform: scale(1.1);
+}
+
+.caja {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+    margin: 20px auto;
+    text-align: center;
+	margin-top: 0;
+	position: relative;
+	top: 50px;
+}
+
+.caja h2 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.columna{
+  font-size: 18px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.background {
+	background-image:url("parque1.jpg");
+	height:600px;
+	background-size: cover;
+	background-position: center; 
+	display: block;
+	margin:0;
+	padding: 0;
+}
+
+
+.planch {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.planch h2 {
+    font-size: 2rem;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.planch p {
+    margin-bottom: 20px;
+}
+
+.planch ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.planch li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.planch .exercise-image {
+    max-width: 150px;
+    border-radius: 8px;
+
+}
+
+.planch li p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.planch li p strong {
+    color: #007BFF;
+}
+
+.front {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.front h2 {
+    font-size: 2rem;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.front p {
+    margin-bottom: 20px;
+}
+
+.front ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.front li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.front .exercise-image {
+    max-width: 150px;
+    border-radius: 8px;
+}
+
+.front li p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.front li p strong {
+    color: #007BFF;
+}
+
+.bandera {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.bandera h2 {
+    font-size: 2rem;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.bandera p {
+    margin-bottom: 20px;
+}
+
+.bandera ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bandera li {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.bandera .exercise-image {
+    max-width: 150px;
+    border-radius: 8px;
+}
+
+.bandera li p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.bandera li p strong {
+    color: #007BFF;
+}
+
+.contacto {
+	position: relative;
+	top: 365px;
+	
+	
+}
+
+
